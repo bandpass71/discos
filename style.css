@@ -1,0 +1,86 @@
+body {
+    color: #e0e0e0;
+    background: #1a1a1a;
+    font-size: 16px;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+/* Track rows: Stack elements on mobile, side-by-side on larger screens */
+.track-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+    padding: 10px;
+    background: #252525;
+    border-radius: 4px;
+}
+
+.track-name {
+    font-weight: bold;
+    color: #ffffff;
+    min-width: 90px;
+}
+
+audio {
+    height: 32px;
+    flex-grow: 1;
+    min-width: 200px;
+    max-width: 100%;
+}
+
+.track-row a {
+    color: #4da6ff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+
+.track-row a:hover {
+    text-decoration: underline;
+}
+
+.contact-email {
+    margin-top: 20px;
+    font-size: 0.95rem;
+}
+
+.contact-email a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.contact-email a:hover {
+    opacity: 0.7;
+}
+
+.support-links {
+    margin-top: 20px;
+}
+
+.support-links a {
+    display: inline-block;
+    background: #252525;
+    color: #4da6ff;
+    padding: 10px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.support-links a:hover {
+    text-decoration: underline;
+}
