@@ -1,0 +1,88 @@
+body {
+     color: #e0e0e0;
+     background: #1a1a1a;
+}
+
+h1 {
+    font-size: 2.5rem; /* Makes the header prominent */
+}
+
+p {
+    font-size: 1.1rem; /* Keeps paragraphs readable and comfortable */
+}
+
+h2 {
+    font-size: 1.3rem;
+    
+}
+
+div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+    background: #252525;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+div span {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+div a {
+    color: #4da6ff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+div a:hover {
+    text-decoration: underline;
+}
+
+.track-row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 6px;
+  padding: 4px 0;
+}
+
+.track-name {
+  font-weight: bold;
+  min-width: 100px;
+}
+
+audio {
+  height: 32px;
+  flex-grow: 1;
+  max-width: 300px;
+}
+
+.track-row a {
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+.contact-email {
+  margin-top: 20px;
+  font-size: 0.95rem;
+}
+.contact-email a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.contact-email a:hover {
+  opacity: 0.7;
+}
+
+.album-download a {
+  color: #4da6ff;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.album-download a:hover {
+  text-decoration: underline;
+}
